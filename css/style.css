@@ -1,0 +1,17 @@
+.main_content{
+	width: 880px;
+	overflow: hidden;
+	margin: 20px auto 0 auto;
+	padding: 0 0 10px 0;
+}
+
+.currency-symbol{
+	position:relative;
+	margin-right:-20px
+}
+.currency{
+	padding-left: 28px;
+	text-align: left;
+	margin-left: -9px;
+	max-width: 178px;
+}

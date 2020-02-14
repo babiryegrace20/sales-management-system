@@ -1,0 +1,73 @@
+<form class="form" method="post" action="process_product.jsp"  enctype="multipart/form-data" style="height: inherit;">
+
+	<table border="0">
+		<tr>
+			<td>
+				Bag ID:
+			</td>
+			<td>
+				<input type="text" name="id" required="required" placeholder="e.g. NAK-##">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Name:
+			</td>
+			<td>
+				<input type="text" required="required" name="bag_name">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Description:
+			</td>
+			<td>
+				<input type="text" required="required" name="description">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Image:
+			</td>
+			<td>
+				<input type="file" required="required" name="image">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Price:
+			</td>
+			<td>
+				<span class="currency-symbol">Shs </span>
+				<input type="number" class="currency" min="0.01" value="00.00" name="price"/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Quantity Sold:
+			</td>
+			<td>
+				<input type="number" min="0" name="sold">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Quantity Available:
+			</td>
+			<td>
+				<input type="number" min="0" name="available">
+			</td>
+		</tr>
+
+	</table>
+<br/>
+	
+	<input class="btn" type="submit" value="Submit" style="margin: 0px auto; 
+		background-color: #5F9EA0;
+		padding: 10px;
+		color: white;
+		font-size: 15px;
+		width: 40%;">
+
+
+</form>
